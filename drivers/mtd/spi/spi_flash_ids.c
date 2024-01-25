@@ -205,6 +205,7 @@ const struct spi_flash_info spi_flash_ids[] = {
 	{ "XM25QH64C",		INFO(0x204017, 0x0, 64 * 1024, 128, RD_FULL | SECT_4K) },
 	{ "XM25QH128A",		INFO(0x207018, 0x0, 64 * 1024, 256, RD_FULL | SECT_4K) },
 	{ "XM25QH128C",		INFO(0x204018, 0x0, 64 * 1024, 256, RD_FULL | SECT_4K) },
+	{ "XM25QH512C",		INFO(0x204020, 0x0, 64 * 1024, 1024, RD_FULL | SECT_4K) },
 #endif
 	{},	/* Empty entry to terminate the list */
 	/*
